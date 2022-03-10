@@ -7,6 +7,13 @@ The developed datasets consist of two parts:
 1. Development dataset, manually labeled and is used for building the annotation scheme of citation functions.
 2. Final dataset, which is built automatically based on the best models on the development stages.
 
+## Proposed System Architecture ## 
+This is the whole system architecture
+![picture alt](https://github.com/tutcsis/SDCF/blob/main/Images/new-whole-diagram.png "Title is optional")
+
+This is the active learning scenario
+![picture alt](https://github.com/tutcsis/SDCF/blob/main/Images/New-Active-Learning.png "Title is optional")
+
 ## Labeling scheme of citation functions ## 
 The proposed scheme consists of two parts, five coarse labels and 21 fine-grained labels.
 
