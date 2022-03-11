@@ -7,10 +7,9 @@ The developed datasets consist of two parts:
 1. Development dataset, manually labeled and is used for building the annotation scheme of citation functions.
 2. Final dataset, which is built automatically based on the best models on the development stages.
 
-
-
 ## Proposed System Architecture ## 
-This is the whole system architecture
+This is the whole system architecture for building the dataset, which consists of two sub-stages. First, this research proposes a new labeling scheme of citation functions that has not been covered in existing works. Second, we develop a new dataset of citation functions using semiautomatic approach. The approach is started by creating a development dataset through manually labeled dataset, and the final dataset which is labeled autmatically using the best model obtained from previous step. Moreover, we apply the Active Learning method as a low resurce scenario.
+
 ![picture alt](https://github.com/tutcsis/SDCF/blob/main/Images/new-whole-diagram.png "Title is optional")
 
 This is the active learning scenario
