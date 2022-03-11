@@ -5,8 +5,9 @@ This repository stores an official dataset of citation functions of the paper, S
 
 Summary of our repository contribution:
 1. A new labeling scheme of citation functions containing five coarse labels and 21 fine-grained labels.
-2. A development dataset of citation functions which consists of 5,668 manually labeled instances.
-3. A final dataset of citation functions which consists of 1,840,815 automatically labeled instances.
+2. A labeling guidance.
+3. A development dataset of citation functions which consists of 5,668 manually labeled instances.
+4. A final dataset of citation functions which consists of 1,840,815 automatically labeled instances.
 
 ## Proposed System Architecture ## 
 This is the whole system architecture for building the dataset, which consists of two sub-stages. First, this research proposes a new labeling scheme of citation functions that has not been covered in existing works. Second, we develop a new dataset of citation functions using semiautomatic approach. The approach is started by creating a development dataset through manually labeled dataset, and the final dataset which is labeled autmatically using the best model obtained from previous step. Moreover, we apply the Active Learning method as a low resurce scenario.
