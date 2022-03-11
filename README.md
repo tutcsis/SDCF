@@ -1,20 +1,26 @@
-# SDCF
 # The SDCF: Semi-automatically structured Dataset of Citation Functions #
 
-This repository stores an official dataset of citation functions of the paper, SDCF: Semi-automatically structured Dataset of Citation Functions. 
+This repository stores an official dataset of citation functions of the paper **"SDCF: Semi-automatically structured Dataset of Citation Functions"**. This research aims to build a new dataset of citation functions. Our work was motivated by the fact that existing datasets consist of limited labels and contains few instances. Moreover, most of existing labels of citation function were built using limited research scopes.
 
-Summary of our repository contribution:
+The contribrution of this paper provided in this repository are:
 1. A new labeling scheme of citation functions containing five coarse labels and 21 fine-grained labels.
 2. A labeling guidance for annotators.
-3. A development dataset of citation functions which consists of 5,668 manually labeled instances.
-4. A final dataset of citation functions which consists of 1,840,815 automatically labeled instances.
+3. [A development dataset](https://github.com/tutcsis/SDCF/tree/main/Development%20datasets), which consists of 5,668 manually labeled instances.
+4. [A final dataset](), which consists of 1,840,815 automatically labeled instances.
 
 ## Proposed System Architecture ## 
-This is the whole system architecture for building the dataset, which consists of two sub-stages. First, this research proposes a new labeling scheme of citation functions that has not been covered in existing works. Second, we develop a new dataset of citation functions using semiautomatic approach. The approach is started by creating a development dataset through manually labeled dataset, and the final dataset which is labeled autmatically using the best model obtained from previous step. Moreover, we apply the Active Learning method as a low resurce scenario.
+The proposed dataset was developed by following two sub-stages. 
+* In the first stage, this research proposes a new labeling scheme of citation functions. 
+* In the second stage, we develop a new dataset of citation functions using semiautomatic approach. 
+  * The semiautomatic approach is implemented by creating a development dataset (manually labeled dataset), and the final dataset (autmatically labeled dataset). 
+* Furthermore, we apply the Active Learning (AL) method as low resurce scenarios. 
+
+The whole stages of dataset building is shown in the following figure.
 
 ![picture alt](https://github.com/tutcsis/SDCF/blob/main/Images/new-whole-diagram.png "Title is optional")
 
-This is the active learning scenario
+
+The below figure represents the AL approach:
 ![picture alt](https://github.com/tutcsis/SDCF/blob/main/Images/New-Active-Learning.png "Title is optional")
 
 ## Labeling scheme of citation functions ## 
