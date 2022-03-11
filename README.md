@@ -5,7 +5,7 @@ This repository stores an official dataset of citation functions of the paper, S
 
 Summary of our repository contribution:
 1. A new labeling scheme of citation functions containing five coarse labels and 21 fine-grained labels.
-2. A labeling guidance.
+2. A labeling guidance for annotators.
 3. A development dataset of citation functions which consists of 5,668 manually labeled instances.
 4. A final dataset of citation functions which consists of 1,840,815 automatically labeled instances.
 
