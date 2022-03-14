@@ -56,11 +56,6 @@ columns-0  | columns-1  | columns-2  | columns-3  | columns-4  | columns-5
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 paper-id  | published-date-in-ArXiv  | paper-title  | line-number  | citing-sentence  | label
 
-* Inter-annotation Agreement results 
-* Classification Results 
-  * Filtering stages 
-  * Fine-grained Classification 
-
 ## Citation
 If you find that our datasets are useful, please cite:
 
