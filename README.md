@@ -1,14 +1,14 @@
-# The SDCF: Semi-automatically structured Dataset of Citation Functions #
+# The SDCF: Semi-automatically structured Dataset of Citation Functions
 
 This repository stores an official dataset of citation functions of the paper **"SDCF: Semi-automatically structured Dataset of Citation Functions"**. This research aims to build a new dataset of citation functions. Our work was motivated by the fact that existing datasets consist of limited labels and contains few instances. Moreover, most of existing labels of citation function were built using limited research scopes.
 
 The contribrution of this paper provided in this repository are:
-1. A new labeling scheme of citation functions containing five coarse labels and 21 fine-grained labels.
-2. A labeling guidance for annotators.
+1. A new [labeling scheme](#labeling-scheme-of-citation-functions) of citation functions containing five coarse labels and 21 fine-grained labels.
+2. A [labeling guidance](https://github.com/tutcsis/SDCF/tree/main/Labeling%20instructions), for annotators.
 3. A [development dataset](https://github.com/tutcsis/SDCF/tree/main/Development%20datasets), which consists of 5,668 manually labeled instances.
 4. A [final dataset](https://drive.google.com/drive/u/0/folders/12CE9pPUqks5-tdnUSSPxfD-WdGGhC4Y4), which consists of 1,840,815 automatically labeled instances.
 
-## Proposed System Architecture ## 
+## Proposed System Architecture
 The proposed dataset was developed by following two sub-stages. 
 * In the first stage, this research proposes a new labeling scheme of citation functions. 
 * In the second stage, we develop a new dataset of citation functions using semiautomatic approach. 
@@ -23,7 +23,7 @@ The whole stages of dataset building is shown in the following figure.
 The below figure represents the AL approach:
 ![picture alt](https://github.com/tutcsis/SDCF/blob/main/Images/New-Active-Learning.png "Title is optional")
 
-## Labeling scheme of citation functions ## 
+## Labeling scheme of citation functions
 The proposed scheme consists of two parts, five coarse labels and 21 fine-grained labels.
 
 coarse labels  | fine-grained labels
@@ -50,16 +50,16 @@ other  | other_cited_paper_comparison
 other  | other_multiple_intent
 other  | other_other
 
-## Dataset Evaluation ## 
+## Dataset Evaluation
 * Inter-annotation Agreement results 
 * Classification Results 
   * Filtering stages 
   * Fine-grained Classification 
 
-## Citation ## 
+## Citation
 If you find that our datasets are useful, please cite:
 
  
 
-## Contact Us ##
+## Contact Us
 Further questions, reach us on: setio@is.cs.tut.ac.jp   
