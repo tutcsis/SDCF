@@ -50,7 +50,12 @@ other  | other_cited_paper_comparison
 other  | other_multiple_intent
 other  | other_other
 
-## Dataset Evaluation
+## Dataset of Citation Functions
+The finel dataset of citation functions is organized as follow:
+columns-0  | columns-1  | columns-2  | columns-3  | columns-4  | columns-5
+------------- | ------------- | ------------- | ------------- | ------------- | -------------
+paper-id  | published-date-in-ArXiv  | paper-title  | line-number  | citing-sentence  | label
+
 * Inter-annotation Agreement results 
 * Classification Results 
   * Filtering stages 
