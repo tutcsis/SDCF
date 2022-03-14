@@ -5,8 +5,8 @@ This repository stores an official dataset of citation functions of the paper **
 The contribrution of this paper provided in this repository are:
 1. A new labeling scheme of citation functions containing five coarse labels and 21 fine-grained labels.
 2. A labeling guidance for annotators.
-3. [A development dataset](https://github.com/tutcsis/SDCF/tree/main/Development%20datasets), which consists of 5,668 manually labeled instances.
-4. [A final dataset](), which consists of 1,840,815 automatically labeled instances.
+3. A [development dataset](https://github.com/tutcsis/SDCF/tree/main/Development%20datasets), which consists of 5,668 manually labeled instances.
+4. A [final dataset](https://drive.google.com/drive/u/0/folders/12CE9pPUqks5-tdnUSSPxfD-WdGGhC4Y4), which consists of 1,840,815 automatically labeled instances.
 
 ## Proposed System Architecture ## 
 The proposed dataset was developed by following two sub-stages. 
